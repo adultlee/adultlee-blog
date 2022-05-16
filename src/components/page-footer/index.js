@@ -1,5 +1,5 @@
-import React from 'react';
-import './style.scss';
+import React from "react";
+import "./style.scss";
 
 function PageFooter({ author, githubUrl }) {
   return (
@@ -8,10 +8,6 @@ function PageFooter({ author, githubUrl }) {
         © {new Date().getFullYear()}
         &nbsp;
         <a href={githubUrl}>{author}</a>
-        &nbsp;powered by
-        <a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog">
-          &nbsp;zoomkoding-gatsby-blog
-        </a>
       </p>
     </footer>
   );
