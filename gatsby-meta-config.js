@@ -14,11 +14,7 @@ module.exports = {
     name: `이성인`,
     bio: {
       role: `개발자`,
-      description: [
-        "배움에 진심을 다하는",
-        "낭만을 즐길줄 아는",
-        "나보단 우리가 좋은",
-      ],
+      description: ["배움에 진심을 다하는", "나눔의 즐거움을 아는"],
       thumbnail: "sample.jpeg", // Path to the image in the 'asset' folder
     },
     social: {
