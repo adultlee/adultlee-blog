@@ -12,8 +12,8 @@ class MouseParticles extends React.Component {
     this._allowEmitting = true;
     this.renderProton = this.renderProton.bind(this);
     this.mouseMoveHandler = this.mouseMoveHandler.bind(this);
-    this.mouseDownHandler = this.mouseDownHandler.bind(this);
-    this.mouseUpHandler = this.mouseUpHandler.bind(this);
+    // this.mouseDownHandler = this.mouseDownHandler.bind(this);
+    // this.mouseUpHandler = this.mouseUpHandler.bind(this);
 
     this.createContainerDom();
   }
@@ -28,7 +28,7 @@ class MouseParticles extends React.Component {
     this.dom.id = `mouse_ps_${(Math.random() * 999999) >> 0}`;
     document.body.appendChild(this.dom);
   }
-
+  // 해당 위치에서 제거 해야한다.
   componentWillUnmount() {
     try {
       document.body.removeEventListener(
@@ -36,21 +36,14 @@ class MouseParticles extends React.Component {
         this.mouseMoveHandler,
         false
       );
-      document.body.removeEventListener(
-        "mousedown",
-        this.mouseDownHandler,
-        false
-      );
-      document.body.removeEventListener("mouseup", this.mouseUpHandler, false);
-      RAFManager.remove(this.renderProton);
-      this.proton.destroy();
-    } catch (e) {}
+    } catch (e) {
+      console.log(e);
+    }
   }
 
   componentDidMount() {
     this.onCanvasInited();
     this.addMouseEventListener();
-    this.setCullList();
   }
 
   onCanvasInited() {
@@ -60,15 +53,9 @@ class MouseParticles extends React.Component {
 
   addMouseEventListener() {
     document.body.addEventListener("mousemove", this.mouseMoveHandler, false);
-    document.body.addEventListener("mousedown", this.mouseDownHandler, false);
-    document.body.addEventListener("mouseup", this.mouseUpHandler, false);
   }
 
-  mouseDownHandler(e) {}
-  mouseUpHandler(e) {}
-
   mouseMoveHandler(e) {
-    if (this.isCullDom(e)) return;
     let x,
       y = 0;
 
@@ -88,16 +75,6 @@ class MouseParticles extends React.Component {
     this.LEVEL = this.props.level || 6;
   }
 
-  isCullDom(e) {
-    this.level = 0;
-
-    if (isInputText(e.target)) return true;
-    if (isTextBox(e.target)) return true;
-    if (!this.cullClassList || !this.cullClassList.length) return false;
-
-    return this.isContain(e.target, this.cullClassList);
-  }
-
   isContain(element, cullClassList) {
     if (this.level >= this.LEVEL) return false;
     if (!element) return false;
@@ -114,7 +91,7 @@ class MouseParticles extends React.Component {
     return this.isContain(element.parentNode, cullClassList);
   }
 
-  createProton(canvas) {
+  createProton() {
     this.proton = new Proton();
 
     const emitter = new Proton.Emitter();
@@ -165,19 +142,6 @@ class MouseParticles extends React.Component {
   render() {
     return <React.Fragment />;
   }
-}
-
-// utils function
-function isInputText(element) {
-  return element instanceof HTMLInputElement && element.type === "text";
-}
-
-function isTextBox(element) {
-  let tagName = element.tagName.toLowerCase();
-  if (tagName === "textarea") return true;
-  if (tagName === "input") return true;
-
-  return false;
 }
 
 export default MouseParticles;
