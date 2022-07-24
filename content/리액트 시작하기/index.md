@@ -1,54 +1,54 @@
 ---
 emoji: ?
-title: °£´ÜÇÏ°Ô ½ÃÀÛÇÏ´Â react!
+title: ê°„ë‹¨í•˜ê²Œ ì‹œìž‘í•˜ëŠ” react!
 date: "2022-06-10 01:05:00"
-author: ÀÌ¼ºÀÎ
-tags: ¸Ú»ç±³À°
-categories: ¸Ú»çFE
+author: ì´ì„±ì¸
+tags: ë©‹ì‚¬êµìœ¡
+categories: ë©‹ì‚¬FE
 ---
 
-# npx·Î ½ÃÀÛÇÏ´Â react!
+# npxë¡œ ì‹œìž‘í•˜ëŠ” react!
 
-Á÷Á¢ react¸¦ ±â¹ÝÀ¸·Î ½ÃÀÛÇØ º¸°Ú½À´Ï´Ù!!
-»çÀü ÁØºñ°¡ ¸î°¡Áö ÇÊ¿äÇÕ´Ï´Ù!
-vs code »ó¿¡¼­ ÅÍ¹Ì³ÎÀ» ÅëÇØ¼­ ÇØ´ç ¸í·É¾î¸¦ ÀÔ·ÂÇØ ÁÖ¾î¾ß ÇÕ´Ï´Ù!
+ì§ì ‘ reactë¥¼ ê¸°ë°˜ìœ¼ë¡œ ì‹œìž‘í•´ ë³´ê² ìŠµë‹ˆë‹¤!!
+ì‚¬ì „ ì¤€ë¹„ê°€ ëª‡ê°€ì§€ í•„ìš”í•©ë‹ˆë‹¤!
+vs code ìƒì—ì„œ í„°ë¯¸ë„ì„ í†µí•´ì„œ í•´ë‹¹ ëª…ë ¹ì–´ë¥¼ ìž…ë ¥í•´ ì£¼ì–´ì•¼ í•©ë‹ˆë‹¤!
 
 ```
-npx create-react-app [ÇÁ·ÎÁ§Æ® ¸í]
+npx create-react-app [í”„ë¡œì íŠ¸ ëª…]
 ```
 
-(¸¸¾à ±êÅ©¶óÄËÀ» ÅëÇØ¼­ ÇÁ·ÎÁ§Æ®¸¦ ½ÃÀÛÇÑ °æ¿ì ÇÁ·ÎÁ§Æ® ¸íÀÌ °áÁ¤µÇ¾î ÀÖ°í Æú´õ°¡ »ý¼ºµÇ¾î ÀÖ´Â °æ¿ì°¡ ÀÖ½À´Ï´Ù. ÀÌ°æ¿ì npx create-react-app . ÀÌ¶ó´Â ¸í·É¾î¸¦ ´ë½ÅÇÏ¿© »ç¿ëÇÕ´Ï´Ù. ÀÌ·²¶© ÇØ´ç Æú´õÀÇ À§Ä¡¿¡¼­ create-react-appÀÌ ½ÇÇàµË´Ï´Ù.)
+(ë§Œì•½ ê¹ƒí¬ë¼ì¼„ì„ í†µí•´ì„œ í”„ë¡œì íŠ¸ë¥¼ ì‹œìž‘í•œ ê²½ìš° í”„ë¡œì íŠ¸ ëª…ì´ ê²°ì •ë˜ì–´ ìžˆê³  í´ë”ê°€ ìƒì„±ë˜ì–´ ìžˆëŠ” ê²½ìš°ê°€ ìžˆìŠµë‹ˆë‹¤. ì´ê²½ìš° npx create-react-app . ì´ë¼ëŠ” ëª…ë ¹ì–´ë¥¼ ëŒ€ì‹ í•˜ì—¬ ì‚¬ìš©í•©ë‹ˆë‹¤. ì´ëŸ´ë• í•´ë‹¹ í´ë”ì˜ ìœ„ì¹˜ì—ì„œ create-react-appì´ ì‹¤í–‰ë©ë‹ˆë‹¤.)
 
-¾Æ·¡¿Í °°ÀÌ ÀÔ·ÂÇÏ¸é µË´Ï´Ù.
-ÇöÀç Æú´õÀÇ À§Ä¡ : ¹ÙÅÁÈ­¸é/ÀÌ¼ºÀÎ/)
+ì•„ëž˜ì™€ ê°™ì´ ìž…ë ¥í•˜ë©´ ë©ë‹ˆë‹¤.
+í˜„ìž¬ í´ë”ì˜ ìœ„ì¹˜ : ë°”íƒ•í™”ë©´/ì´ì„±ì¸/)
 <img width="574" alt="image" src="https://user-images.githubusercontent.com/77886826/173179741-9022b8ae-e4f6-414e-bc2d-85473a7863be.png">
 
-¿©±â¼­ start-react ¶ó´Â ÀÌ¸§À¸·Î Æú´õ°¡ **ÇöÀç À§Ä¡**¿¡ »ý¼ºµÇ°Ô µÇ¸ç, ÇØ´ç À§Ä¡·Î ²À ÀÌµ¿ÇØ ÁÖ¾î¾ß ÇÕ´Ï´Ù.
+ì—¬ê¸°ì„œ start-react ë¼ëŠ” ì´ë¦„ìœ¼ë¡œ í´ë”ê°€ **í˜„ìž¬ ìœ„ì¹˜**ì— ìƒì„±ë˜ê²Œ ë˜ë©°, í•´ë‹¹ ìœ„ì¹˜ë¡œ ê¼­ ì´ë™í•´ ì£¼ì–´ì•¼ í•©ë‹ˆë‹¤.
 
 <img width="424" alt="image" src="https://user-images.githubusercontent.com/77886826/173179840-7f4f25e6-8420-4b16-91bb-dcb52d911113.png">
 
-ÇöÀç Æú´õÀÇ À§Ä¡ : ¹ÙÅÁÈ­¸é/ÀÌ¼ºÀÎ/start-react)
+í˜„ìž¬ í´ë”ì˜ ìœ„ì¹˜ : ë°”íƒ•í™”ë©´/ì´ì„±ì¸/start-react)
 
-ÇöÀç À§Ä¡¸¦ È®ÀÎÇÏ´Â ¸í·É¾î : pwd
-(¸¸¾à ÇöÀç À§Ä¡¿¡¼­ ÀÌµ¿ÇÏ°í ½Í´Ù¸é cd ¸í·É¾î¸¦ ÅëÇØ ÀÌµ¿ÇÕ´Ï´Ù.)
+í˜„ìž¬ ìœ„ì¹˜ë¥¼ í™•ì¸í•˜ëŠ” ëª…ë ¹ì–´ : pwd
+(ë§Œì•½ í˜„ìž¬ ìœ„ì¹˜ì—ì„œ ì´ë™í•˜ê³  ì‹¶ë‹¤ë©´ cd ëª…ë ¹ì–´ë¥¼ í†µí•´ ì´ë™í•©ë‹ˆë‹¤.)
 
 ```
 npm i
 npm run start
 ```
 
-ÇöÀç À§Ä¡°¡ »ý¼ºÇÑ ÇÁ·ÎÁ§Æ®¸í°ú µ¿ÀÏÇÑ °æ¿ì À§¿Í°°Àº ¸í·É¾î¸¦ ÀÔ·ÂÇÏ¿© ½ÇÇàÇÕ´Ï´Ù.  
-½ÇÇàÇÏ°Ô µÈ´Ù¸é ´ÙÀ½°ú °°Àº È­¸éÀÌ Ãâ·ÂµÇ°Ô µË´Ï´Ù.
+í˜„ìž¬ ìœ„ì¹˜ê°€ ìƒì„±í•œ í”„ë¡œì íŠ¸ëª…ê³¼ ë™ì¼í•œ ê²½ìš° ìœ„ì™€ê°™ì€ ëª…ë ¹ì–´ë¥¼ ìž…ë ¥í•˜ì—¬ ì‹¤í–‰í•©ë‹ˆë‹¤.  
+ì‹¤í–‰í•˜ê²Œ ëœë‹¤ë©´ ë‹¤ìŒê³¼ ê°™ì€ í™”ë©´ì´ ì¶œë ¥ë˜ê²Œ ë©ë‹ˆë‹¤.
 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/77886826/173180272-fb0a858c-3429-4aae-a48a-7f5182ffcb62.png">
 
  <img width="1440" alt="image" src="https://user-images.githubusercontent.com/77886826/173180233-035a5958-7215-475c-b7d4-748167a0631a.png">
 
-Á¤»óÀûÀ¸·Î ´ÙÀ½°ú °°Àº È­¸éÀÌ ³ª¿Ô´ÂÁö È®ÀÎÇÑ ÈÄ ÀÌÁ¦´Â ¿ì¸®°¡ ÀÛ¾÷ÇÒ ¼ö ÀÖ´Â »óÅÂ·Î ¼öÁ¤À» ÇØÁÖ¾î¾ß ÇÕ´Ï´Ù.
-¸ÕÀú, ÁÂÃøÀÇ Æú´õ ¿­±â ¹öÆ°À» ÅëÇØ¼­ ÇØ´ç Æú´õ¸¦ ¿­¾îÁÝ´Ï´Ù.
+ì •ìƒì ìœ¼ë¡œ ë‹¤ìŒê³¼ ê°™ì€ í™”ë©´ì´ ë‚˜ì™”ëŠ”ì§€ í™•ì¸í•œ í›„ ì´ì œëŠ” ìš°ë¦¬ê°€ ìž‘ì—…í•  ìˆ˜ ìžˆëŠ” ìƒíƒœë¡œ ìˆ˜ì •ì„ í•´ì£¼ì–´ì•¼ í•©ë‹ˆë‹¤.
+ë¨¼ì €, ì¢Œì¸¡ì˜ í´ë” ì—´ê¸° ë²„íŠ¼ì„ í†µí•´ì„œ í•´ë‹¹ í´ë”ë¥¼ ì—´ì–´ì¤ë‹ˆë‹¤.
 
 <img width="1435" alt="image" src="https://user-images.githubusercontent.com/77886826/173180507-b2b4a9b7-98dd-4f16-b8a7-6ab99b267443.png">
 
-À§¿Í °°Àº È­¸éÀÌ ³ª¿Ô´Ù¸é ¼º°øÀÔ´Ï´Ù!!
+ìœ„ì™€ ê°™ì€ í™”ë©´ì´ ë‚˜ì™”ë‹¤ë©´ ì„±ê³µìž…ë‹ˆë‹¤!!
 
-±×¸®°í ´ÙÀ½ È­¸é¿¡¼­ È®ÀÎ ÇÒ ¼ö ÀÖµí localhost:3000¹ø¿¡¼­ ÇØ´ç ¸®¿¢Æ® È­¸éÀ» È®ÀÎ ÇÒ ¼ö ÀÖ½À´Ï´Ù!
+ê·¸ë¦¬ê³  ë‹¤ìŒ í™”ë©´ì—ì„œ í™•ì¸ í•  ìˆ˜ ìžˆë“¯ localhost:3000ë²ˆì—ì„œ í•´ë‹¹ ë¦¬ì—‘íŠ¸ í™”ë©´ì„ í™•ì¸ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤!
