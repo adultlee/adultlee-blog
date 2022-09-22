@@ -1,6 +1,6 @@
 const { NODE_ENV, CONTEXT: NETLIFY_ENV = NODE_ENV } = process.env;
 
-const metaConfig = require('./gatsby-meta-config');
+const metaConfig = require("./gatsby-meta-config");
 
 module.exports = {
   siteMetadata: metaConfig,
@@ -21,20 +21,20 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
         resolveEnv: () => NETLIFY_ENV,
         env: {
           production: {
-            policy: [{ userAgent: '*' }],
+            policy: [{ userAgent: "*" }],
           },
-          'branch-deploy': {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
+          "branch-deploy": {
+            policy: [{ userAgent: "*", disallow: ["/"] }],
             sitemap: null,
             host: null,
           },
-          'deploy-preview': {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
+          "deploy-preview": {
+            policy: [{ userAgent: "*", disallow: ["/"] }],
             sitemap: null,
             host: null,
           },
@@ -70,32 +70,32 @@ module.exports = {
             options: {
               maxWidth: 720,
               linkImagesToOriginal: false,
-              backgroundColor: 'transparent',
+              backgroundColor: "transparent",
             },
           },
           {
             resolve: `gatsby-remark-table-of-contents`,
             options: {
-              exclude: 'Table of Contents',
+              exclude: "Table of Contents",
               tight: false,
               ordered: false,
               fromHeading: 2,
               toHeading: 6,
-              className: 'table-of-contents',
+              className: "table-of-contents",
             },
           },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: 'language-',
+              classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
               noInlineHighlight: false,
               languageExtensions: [
                 {
-                  language: 'superscript',
-                  extend: 'javascript',
+                  language: "superscript",
+                  extend: "javascript",
                   definition: {
                     superscript_types: /(SuperType)/,
                   },
@@ -107,8 +107,8 @@ module.exports = {
                 },
               ],
               prompt: {
-                user: 'root',
-                host: 'localhost',
+                user: "root",
+                host: "localhost",
                 global: false,
               },
               escapeEntities: {},
@@ -117,6 +117,17 @@ module.exports = {
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-F5K8ZPG6PK", // 설정 Google Analytics / GA
+          // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
+          // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
         ],
       },
     },

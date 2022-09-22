@@ -1,7 +1,7 @@
 import React from "react";
 import ReactRotatingText from "react-rotating-text";
 import IconButtonBar from "../icon-button-bar";
-import Image from "../image";
+
 import "./style.scss";
 import styled from "@emotion/styled";
 

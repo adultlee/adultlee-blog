@@ -9,12 +9,12 @@ module.exports = {
       repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: "0", // Google Analytics Tracking ID
+  ga: "G-F5K8ZPG6PK", // Google Analytics Tracking ID
   author: {
     name: `이성인`,
     bio: {
       role: `개발자`,
-      description: ["밝고 명랑한", "하루에 최선을 다하는"],
+      description: ["배움에 진심을 다하는", "나눔의 즐거움을 아는"],
       thumbnail: "sample.jpeg", // Path to the image in the 'asset' folder
     },
     social: {
