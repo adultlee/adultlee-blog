@@ -3,8 +3,8 @@ emoji: ☀️
 title: 🔎 패턴 매칭 장치 (비결정적)
 date: "2022-05-29 23:58:00"
 author: 이성인
-tags: 알고리즘
-categories: 알고리즘
+tags: 짧은지식
+categories: 짧은지식
 ---
 
 # 패턴 매칭
