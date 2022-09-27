@@ -1,7 +1,7 @@
 ---
-emoji: 👋
-title: state를 통해서 react를 깊게 이해하기
-date: "2022-05-10 01:05:00"
+emoji: 🦁
+title: (멋사 FE) useState를 통해서 react에서 Re-Rendering 이해하기
+date: "2022-06-24 01:05:00"
 author: 이성인
 tags: 멋사교육
 categories: 멋사FE
@@ -159,3 +159,8 @@ function Counter() {
 다음과 같이 사용하게 되면 count의 값은 효과적으로 잘 변화하는 것을 확인할 수 있습니다.
 <br>
 <br>
+
+# Reference
+
+아직 배움의 단계라 정확한 정보가 아닐 수 있습니다.😂  
+피드백은 seoungin1228@gmail.com 으로 부탁드리겠습니다☺️

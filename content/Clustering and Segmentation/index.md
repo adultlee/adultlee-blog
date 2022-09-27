@@ -1,7 +1,7 @@
 ---
 emoji: ☀️
 title: 📷 Clustering and Segmentation
-date: "2022-05-24 01:05:00"
+date: "2022-05-24 09:02:00"
 author: 이성인
 tags: 영상처리
 categories: 짧은지식
@@ -176,10 +176,10 @@ Texture란 공간적으로 반복되는 문양을 의미합니다.
 # Reference
 
 아직 배움의 단계라 정확한 정보가 아닐 수 있습니다.😂  
-피드백은 me@adultlee.com 로 부탁드리겠습니다☺️
+피드백은 seoungin1228@gmail.com 으로 부탁드리겠습니다☺️
 
-https://ganghee-lee.tistory.com/44
+- https://ganghee-lee.tistory.com/44
 
-http://www.cs.ait.ac.th/~mdailey/cvreadings/Kass-Snakes.pdf
+- http://www.cs.ait.ac.th/~mdailey/cvreadings/Kass-Snakes.pdf
 
-인하대학교 시각컴퓨팅 및 학습 자료
+- 인하대학교 시각컴퓨팅 및 학습 자료

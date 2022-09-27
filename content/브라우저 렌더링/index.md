@@ -1,7 +1,7 @@
 ---
 emoji: 😀
 title: 브라우저 렌더링
-date: "2022-05-18 01:15:00"
+date: "2022-07-25 01:21:00"
 author: 이성인
 tags: 짧은지식
 categories: 짧은지식
@@ -149,10 +149,11 @@ HTML 문서의 파싱이 정상적으로 마무리 되었다면, 이를 바탕�
 # Reference
 
 아직 배움의 단계라 정확한 정보가 아닐 수 있습니다.😂  
-피드백은 me@adultlee.com 로 부탁드리겠습니다☺️  
+피드백은 seoungin1228@gmail.com 으로 부탁드리겠습니다☺️
+
 <br>
-[naver d2 브라우저 동작원리] https://d2.naver.com/helloworld/59361  
-[웹 동작 과정과 React의 탄생] https://velog.io/@juno7803/React%EA%B0%80-%ED%83%9C%EC%96%B4%EB%82%9C-%EB%B0%B0%EA%B2%BD  
-[How Browsers Work: Behind the scenes of modern web browsers] https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/  
-[자바스크립트는 어떻게 동작하는가] https://engineering.huiseoul.com/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EA%B0%80-v8-%EC%97%94%EC%A7%84%EC%9D%98-%EB%82%B4%EB%B6%80-%EC%B5%9C%EC%A0%81%ED%99%94%EB%90%9C-%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%9E%91%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%8B%A4%EC%84%AF-%EA%B0%80%EC%A7%80-%ED%8C%81-6c6f9832c1d9  
-[웹 동작원리] http://www.tcpschool.com/webbasic/works
+ - [naver d2 브라우저 동작원리](https://d2.naver.com/helloworld/59361)
+ - [웹 동작 과정과 React의 탄생](https://velog.io/@juno7803/React%EA%B0%80-%ED%83%9C%EC%96%B4%EB%82%9C-%EB%B0%B0%EA%B2%BD) 
+ - [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) 
+ - [자바스크립트는 어떻게 동작하는가](https://engineering.huiseoul.com/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EA%B0%80-v8-%EC%97%94%EC%A7%84%EC%9D%98-%EB%82%B4%EB%B6%80-%EC%B5%9C%EC%A0%81%ED%99%94%EB%90%9C-%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%9E%91%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%8B%A4%EC%84%AF-%EA%B0%80%EC%A7%80-%ED%8C%81-6c6f9832c1d9) 
+ - [웹 동작원리](http://www.tcpschool.com/webbasic/works)

@@ -72,7 +72,7 @@ ex) (1+01)\*(0+1) : 연속적으로 두 개의 0이 나오지 않는 0과 1로 �
 # Reference
 
 아직 배움의 단계라 정확한 정보가 아닐 수 있습니다.😂  
-피드백은 me@adultlee.com 로 부탁드리겠습니다☺️
+피드백은 seoungin1228@gmail.com 으로 부탁드리겠습니다☺️
 
-https://eehoeskrap.tistory.com/286
-https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Regular_Expressions
+- https://eehoeskrap.tistory.com/286
+- https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Regular_Expressions
