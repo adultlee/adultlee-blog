@@ -44,7 +44,7 @@ categories: 회고
 - Github
 - Figma
 
-## onboarding 대채 과제
+## 1. onBoarding 업무
 
 지금은 신입 개발자를 위한 onboarding 과제가 있지만 [링크](https://github.com/EXIT-MAKE/make.front.onboarding)
 제가 입사할 당시에는 없었기 떄문에 onboarding 대체 과제를 받게 되었습니다.
@@ -54,8 +54,17 @@ categories: 회고
 
 make.education 서비스의 pricing 페이지 개발 이었습니다. (지금은 legacy로 사라졌지만)  
 유저에게 라이선스 정책을 소개하고 라이선스 가격을 계산해 볼 수 있는 페이지였습니다.
-당시에는 html css js 에 대해 전혀 모르는 상태로 투입된 업무였습니다. 지금 생각해보면 당연하게 어렵지 않은 업무였겠지만 회사에서 처음으로 받은 업무기도 했고, 많은것을 짧은 시간동안 배우고 사용해내야만 했던 테스크였습니다. 당연히 부담을 가지고 최선을 다해서 열심히 했던 테스크였습니다. 지나고 생각해보니 좋은 테스크였다는 생각이 들었습니다. Layout을 조작할 수 잇도록 기초적인 html css를 익히면서도 styled-component, react 의 state , axios를 통한 api 통신 에 대해 빠르게 적응할 수 있도록 도와준 테스크 였습니다. 물론 업무에 필요한 나머지 과정들 **_(git commit 규칙, GitGraken, Figma 보는법, 스프린트 단위의 업무 체계)_** 을 익히며 회사에 적응해 나갔습니다.  
-그리고 조금 일찍 업무를 마무리 하게 되었지만 해당 계산기 로직의 api call최적화 업무를 추가로 진행하게 되었습니다. 당시에는 해당 라이선스 가격 계산 로직이 api 화 되어 결제api 에서도 같이 사용되고 있었습니다. 그래서 해당 계산기의 input 값들을 바꿔줄 때마다 api 를 axios 로 요청해서 받아오게 되었습니다. 이 과정에서 textField의 input number가 바뀔때마다 api가 호출되었기 떄문에 이를 최적화 하는 테스크 였습니다. 처음에는 lodash의 debounce 함수를 사용해서 최적화를 했었지만 리드의 추가 요청으로 인해 lodash를 사용하지 않고 debounce를 구현하게 되었습니다.
+당시에는 html css js 에 대해 전혀 모르는 상태로 투입된 업무였습니다. 지금 생각해보면 어렵지 않은 업무였겠지만 회사에서 처음으로 받은 업무기도 했고, 많은것을 짧은 시간동안 배우고 사용해야만 했던 테스크였습니다. 지나고 생각해보니 onBoarding에 적합한 테스크였다는 생각이 들었습니다.
+
+### 이 테스크를 통해 배운것
+
+- Layout을 조작할 수 잇도록 기초적인 html css 익히기
+- styled-component
+- useState를 비롯한 hook 사용법
+- axios를 통한 api 통신
+- **_git commit 규칙, GitKraken, Figma 보는법, 스프린트 단위의 업무 체계_**
+
+그리고 조금 일찍 업무를 마무리 하게 되어 해당 계산기 로직의 api call 최적화 업무를 추가로 진행하게 되었습니다. 당시에는 해당 라이선스 가격 계산 로직이 api 화 되어 결제 api 에서도 같이 사용되고 있었습니다. 그래서 해당 계산기의 input 값들을 바꿔줄 때마다 axios를 통해 요청해서 받아왔습니다. 이 과정에서 textField의 input number가 바뀔때마다 api가 호출되었기 떄문에 이를 최적화 하는 테스크 였습니다. 처음에는 lodash의 debounce 함수를 사용해서 최적화를 했었지만 리드의 추가 요청으로 인해 lodash를 사용하지 않고, 아래와 같이 useEffect와 setTimeout 함수를 통해 debounce를 구현하였습니다.
 
 ```js
 useEffect(() => {
@@ -69,10 +78,12 @@ useEffect(() => {
 }, [modifying]);
 ```
 
-## editor.trymake.co migration
+## 2. editor.trymake.co migration
 
 오픈소스인 스크래치기반의 arduino editor를 본사 서비스의 목적에 맞도록 개선하는 테스크였다.
 
 <img width="623" alt="image" src="https://user-images.githubusercontent.com/77886826/191732352-273e69f6-b17b-4cbd-9b87-0ea70b374ce6.png">
 
 기존 서비스가 제공하던 real Time 모드를 제거 하고 upload 모드만을 제공하며 중국어와 영어만 제공되던 언어 서비스를 한국어를 지원하도록 수정합니다. openblock-l10n을 사용하여 수정하였습니다.
+
++) 나머지 추가 예정...
