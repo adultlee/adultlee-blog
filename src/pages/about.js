@@ -1,10 +1,10 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../layout';
-import Seo from '../components/seo';
-import Bio from '../components/bio';
-import TimeStampSection from '../components/timestamp-section';
-import ProjectSection from '../components/project-section';
+import React from "react";
+import { graphql } from "gatsby";
+import Layout from "../layout";
+import Seo from "../components/seo";
+import Bio from "../components/bio";
+import TimeStampSection from "../components/timestamp-section";
+import ProjectSection from "../components/project-section";
 
 function AboutPage({ data }) {
   const metaData = data.site.siteMetadata;

@@ -1,23 +1,19 @@
 ---
 emoji: ?
-title: js를 통해서 개발하는 TodoList
-date: "2022-06-10 01:05:00"
+title: [멋사FE] Todolist 구현으로 배우는 JS
+date: "2022-04-10 01:05:00"
 author: 이성인
-tags: 멋사교육
+tags: 멋사
 categories: 멋사FE
 ---
 
 # 서론
 
-<img width="392" alt="image" src="https://user-images.githubusercontent.com/77886826/180594231-5a3787ff-941b-401d-a186-8489ad99bbec.png">
+지금 까지 배웠던 HTML, CSS, JS기초 문법들을 통해서 간단한 기능 구현을 해보겠습니다.
 
-이 글을 작성하는 이유는 저는 js 보다도 react를 배우며 프론트엔드 서비스에 관심을 가지게 되었기 때문입니다. 하지만 js에 대한 이해 없이 react를 사용하다보니 성장속도가 저하되고 밑빠진 독에 물은 붙는 느낌이 들었기 때문입니다. 이글을 읽는 여러분들 또한 이 글을 통해서 좀 더 성장하실수 있다면 좋겠습니다.
+# 복습 - js 를 통한 dom 접근
 
-본 게시글은 프로그래머스의<b>프론트엔드 개발자를 위한 자바스크립트 강의</b>를 기반으로 제작되었습니다.
-
-# js 를 통한 dom 접근
-
-부끄럽지만 js 만으로 html에서 코드를 진행해본적이 없어서 다소 애를 먹었습니다. 그래도 많은 걸 배웟으니 남겨보겠습니다!
+간단한 todoList 를 만들어보면서 js를 통해 dom에 접근해 보겠습니다.
 
 ```html
 <html>
@@ -43,8 +39,8 @@ categories: 멋사FE
 </html>
 ```
 
-평범하게 시작할 수 있는 html 파일에다가 data에 배열 형태로 text를 넣어주었습니다.
-그 후 document.querySelector 를 통해 내부의 innerHtml에 접근 하여 그 값을 조작합니다.
+평범하게 시작할 수 있는 html 파일에 data 배열 형태로 text를 넣어주었습니다.
+그 후 **_document.querySelector_** 를 통해 내부의 innerHtml에 접근 하여 그 값을 조작합니다.
 (querySelector 는 선택한 선택자를 포함한 태그 뭉치들 중에서 가장 '첫번째' 요소를 선택합니다. ([mdn]https://developer.mozilla.org/ko/docs/Web/API/Document/querySelector))  
 (+) 탐색은 깊이 우선 전위순회를 통해서 찾게 되며 문서의 첫번째 요소부터 시작해 자식노드를 모두 검사합니다. )
 data라는 배열에 map 함수를 사용하여 내부의 innerHtml을 변경합니다. 변경될 값을 예상해 보자면
@@ -230,7 +226,7 @@ new 키워드는 다음과 같은 로직을 따라갑니다.
 
 ```js
 function TodoList({ targetElement, initialState }) {
-  // this = {}; 빈객체가 암시작으로 만들어집니다.
+  // this = {}; 빈객체가 암시적으로 만들어집니다.
 
   // 새로운 프로퍼티를 this에 추가됩니다.
   this.state = initialState;

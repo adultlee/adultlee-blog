@@ -3,8 +3,8 @@ emoji: 😀
 title: 브라우저 렌더링
 date: "2022-05-18 01:15:00"
 author: 이성인
-tags: FE CS
-categories: FE
+tags: 짧은지식
+categories: 짧은지식
 ---
 
 # 😎 브라우저란?
