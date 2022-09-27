@@ -75,4 +75,4 @@ useEffect(() => {
 
 <img width="623" alt="image" src="https://user-images.githubusercontent.com/77886826/191732352-273e69f6-b17b-4cbd-9b87-0ea70b374ce6.png">
 
-기존 서비스가 제공하던 real Time 모드를 제거 하고 upload 모드만을 제공하며 중국어와 영어만 제공되던 언어 서비스를 한국어를 지원하도록 수정합니다. openblock-l10n을 사용하여 수정하였습니다. 개발 당시
+기존 서비스가 제공하던 real Time 모드를 제거 하고 upload 모드만을 제공하며 중국어와 영어만 제공되던 언어 서비스를 한국어를 지원하도록 수정합니다. openblock-l10n을 사용하여 수정하였습니다.
