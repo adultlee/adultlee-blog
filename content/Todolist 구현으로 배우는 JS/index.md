@@ -1,5 +1,5 @@
 ---
-emoji: ?
+emoji: 🦁
 title: [멋사FE] Todolist 구현으로 배우는 JS
 date: "2022-04-10 01:05:00"
 author: 이성인
