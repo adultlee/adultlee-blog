@@ -23,7 +23,7 @@ function HomePage({ data }) {
   return (
     <Layout>
       <Seo title="Home" />
-      <Bio author={author} language={language} />
+      {/* <Bio author={author} language={language} /> */}
       <PostTabs
         posts={posts}
         onChange={onTabIndexChange}
