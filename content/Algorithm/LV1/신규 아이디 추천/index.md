@@ -1,7 +1,7 @@
 ---
 emoji: 📖
-title: 신규 아이디 추천
-date: "2022-10-24 09:02:00"
+title: 신규 아이디 추천 [Lv1]
+date: "2022-10-01 09:02:00"
 author: 이성인
 tags: 알고리즘
 categories: 알고리즘
@@ -9,7 +9,7 @@ categories: 알고리즘
 
 # 1. 문제소개
 
-**_2021 KAKAO BLIND RECRUITMENT의 신규 아이디 추천 문제 _**
+[2021 KAKAO BLIND RECRUITMENT의 신규 아이디 추천 문제](https://school.programmers.co.kr/learn/courses/30/lessons/72410)
 
 - 1단계 new_id의 모든 대문자를 대응되는 소문자로 치환합니다.
 - 2단계 new*id에서 알파벳 소문자, 숫자, 빼기(-), 밑줄(*), 마침표(.)를 제외한 모든 문자를 제거합니다.
@@ -249,7 +249,7 @@ const test = array.join("");
 // test
 ```
 
-### replace를 대체 할 수 있다..?!
+### +) replace를 대체 할 수 있다..?!
 
 split과 join을 잘 응용하여 사용하면 replace를 대체 하여 사용할 수 있습니다.
 
