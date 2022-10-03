@@ -1,6 +1,6 @@
 ---
 emoji: 📖
-title: 최댓값과 최솟값 [Lv2]
+title: 최댓값과 최솟값 JS [Lv2]
 date: "2022-10-02 09:02:00"
 author: 이성인
 tags: 알고리즘

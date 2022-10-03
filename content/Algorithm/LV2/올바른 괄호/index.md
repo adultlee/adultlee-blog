@@ -1,6 +1,6 @@
 ---
 emoji: 📖
-title: 올바른 괄호 [Lv2]
+title: 올바른 괄호 JS [Lv2]
 date: "2022-10-03 14:20:00"
 author: 이성인
 tags: 알고리즘
@@ -34,7 +34,6 @@ function solution(s) {
   for (let i = 1; i < arrayS.length; i++) {
     if (arrayS[i] === ")" && stack[stack.length - 1] === "(") {
       // 괄호가 사라지는 유일한 조건
-
       stack.pop();
     } else {
       stack.push(arrayS[i]);
