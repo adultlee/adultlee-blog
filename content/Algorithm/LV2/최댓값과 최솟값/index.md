@@ -1,5 +1,5 @@
 ---
-emoji: 📖
+emoji: 😊
 title: 최댓값과 최솟값 JS [Lv2]
 date: "2022-10-02 09:02:00"
 author: 이성인

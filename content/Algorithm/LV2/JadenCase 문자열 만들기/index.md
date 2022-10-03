@@ -1,5 +1,5 @@
 ---
-emoji: 📖
+emoji: 😊
 title: JadenCase 만들기 JS [Lv2]
 date: "2022-10-02 14:02:00"
 author: 이성인
