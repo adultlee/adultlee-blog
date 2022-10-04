@@ -1,6 +1,6 @@
 ---
-emoji: ☀️
-title: 🤔 index.js 파일이 읽혀지지 않는경우엔 어떻게 해결해야 할까?
+emoji: 🤔
+title: index.js 파일이 읽혀지지 않는경우엔 어떻게 해결해야 할까?
 date: "2022-05-30 01:10:00"
 author: 이성인
 tags: 짧은지식
@@ -13,8 +13,14 @@ categories: 짧은지식
 
 **[Failed to load module script: Expected a JavaScript module script but the server responded with a MIME type of "text/html". Strict MIME type checking is enforced for module scripts per HTML spec.]**
 
-프로그래머스 과제테스트 중 하나인 쇼핑몰 SPA를 작업하다가 발생한 오류 입니다.  
-이 오류를 마주했을때는 "흠, 뭐 별거 아니겠지~" 라고 생각했지만... 생각보다 많은 시간을 사용한 끝에 해결할 수 있었습니다.
+프로그래머스 과제테스트 중 하나인 쇼핑몰 SPA를 작업하다가 발생한 오류 입니다. 또한 routing 처리가 필요한 과제였으니 "/" 위치 뿐아닌 "/product/:productID"등 / 를 추가하자마자 오류가 발생하였습니다.
+
+```
+http://localhost:5000/products/s // 오류발생
+http://localhost:5000/           // is Ok!
+```
+
+처음 이 오류를 마주했을때는 "흠, 뭐 별거 아니겠지~" 라고 생각했지만... 생각보다 많은 시간을 사용한 끝에 해결할 수 있었습니다.
 
 해당 문제의 대부분의 해설은 보통 리엑트나 다른 프레임워크에서 어느정도 경로에 대한 자비로운 처리를 통해서 신경 쓰지 않았던 부분에 대한 해설이었습니다.
 
