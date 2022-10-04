@@ -1,6 +1,6 @@
 ---
 emoji: 📖
-title: 신규 아이디 추천 [Lv1]
+title: 신규 아이디 추천 JS [Lv1]
 date: "2022-10-01 09:02:00"
 author: 이성인
 tags: 알고리즘

@@ -1,6 +1,6 @@
 ---
-emoji: 📖
-title: 최솟값 만들기 [Lv2]
+emoji: 😊
+title: 최솟값 만들기 JS [Lv2]
 date: "2022-10-02 15:02:00"
 author: 이성인
 tags: 알고리즘

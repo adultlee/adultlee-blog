@@ -1,6 +1,6 @@
 ---
-emoji: 📖
-title: 이진변환 반복하기 [Lv2]
+emoji: 😊
+title: 이진변환 반복하기 JS [Lv2]
 date: "2022-10-02 17:20:00"
 author: 이성인
 tags: 알고리즘
