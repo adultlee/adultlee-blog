@@ -15,6 +15,9 @@ categories: 회고
 
 퇴사한지 한달이 다 되어가지만, 이제라도 남겨보려고 합니다!
 
+해당 게시글은 영상으로도 남겨두었습니다😂 [유튜브 링크](https://www.youtube.com/watch?v=9RfpS2GgHYo)
+(아쉽긴 하지만 첫술에 배부를순 없으니...!)
+
 # Maromav 란?
 
 <img width="152" alt="image" src="https://user-images.githubusercontent.com/77886826/191723516-ea11bed1-0564-46dd-ac53-4bfd6de2cef7.png">
