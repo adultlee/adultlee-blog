@@ -259,3 +259,5 @@ console.log(answer.length); // console.log([...set].length)도 가능합니다!
 
 아직 배움의 단계라 정확한 정보가 아닐 수 있습니다.😂  
 피드백은 seoungin1228@gmail.com 으로 부탁드리겠습니다☺️
+
+[Git 실습 레포](https://github.com/Likelion-Inha-10/fe-week1)
