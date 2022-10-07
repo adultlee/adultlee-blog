@@ -1,6 +1,6 @@
 ---
 emoji: 🦁
-title: (멋사 FE) 2주차 과제 해설
+title: (멋사 FE) 3주차 과제 해설
 date: "2022-05-21 12:00:00"
 author: 이성인
 tags: 멋사교육
@@ -107,4 +107,4 @@ border를 적극적으로 사용하면 어떤 방식으로 요소가 배치되�
 아직 배움의 단계라 정확한 정보가 아닐 수 있습니다.😂  
 피드백은 seoungin1228@gmail.com 으로 부탁드리겠습니다☺️
 
-[Git 실습 레포](https://github.com/Likelion-Inha-10/fe-week2)
+[Git 실습 레포](https://github.com/Likelion-Inha-10/fe-week3)
