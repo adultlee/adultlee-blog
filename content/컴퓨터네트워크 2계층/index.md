@@ -26,22 +26,22 @@ node는 모든 통신에 관련된 entity를 의미합니다.
 LLC 와 MAC입니다. LLC는 논리적인 부분으로 네트워크 계층과 연결되며 Frame을 만드는것에 기여합니다
 MAC 은 물리적인 부분으로 1계층과 연결되어 있습니다.
 
-**_data-link layer는 물리적으로 연결된 node에 전송할 데이터의 frame을 만든다_**
+**_data-link layer는 물리적으로 연결된 node에 전송할 데이터의 frame을 만듭니다_**
+
 직접 전송은 1계층에서 관리하며 어떻게 보내는지는 관심이 없습니다
 
 ![image](https://user-images.githubusercontent.com/77886826/195349698-609786ab-9068-4921-b39b-8cd2cb74a8ef.png)
 
 1. framing, Link access
 
-- framing : 3계층에서 받은 데이터를 2계층에서 보낼 수 있도록 frame을 만드는 것, 양쪽에 header, trailer를 붙입니다.
-- Link access : frame의 Mac address 를 통해서 source 와 destination을 확인합니다. IP address와 다릅니다
+   - framing : 3계층에서 받은 데이터를 2계층에서 보낼 수 있도록 frame을 만드는 것, 양쪽에 header, trailer를 붙입니다.
+   - Link access : frame의 Mac address 를 통해서 source 와 destination을 확인합니다. IP address와 다릅니다
 
-2.  인접한 노드에 대해 신뢰적인 연결을 진행합니다
+2. 인접한 노드에 대해 신뢰적인 연결을 진행합니다
 
-- 유선의 경우에는 거의 에러가 없습니다
-  무선의 경우 에러가 발생할 확률이 높습니다
+   - 유선의 경우에는 거의 에러가 없습니다. 무선의 경우 에러가 발생할 확률이 높습니다
 
-![image](https://user-images.githubusercontent.com/77886826/195350040-b08de82a-7c46-4fc3-ab20-ed809122244e.png)
+![image](https://user-images.githubusercontent.com/77886826/195350040-b08de82a-7c46-4fc3-ab20-ed809122244e.png)  
 실제론 다음과 같이 동작합니다.
 
 ## Link layer 기능
