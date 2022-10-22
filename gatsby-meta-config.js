@@ -53,18 +53,18 @@ module.exports = {
           github: "https://github.com/LikeLion-Inha-9",
         },
       },
-      {
-        date: "2021.07 ~",
-        activity: "(주) 마로마브 웹개발팀 ",
-        links: {
-          github: "https://github.com/EXIT-MAKE",
-          googlePlay:
-            "https://play.google.com/store/apps/details?id=com.CEREALLAB.FruitsLoop",
-          appStore:
-            "https://apps.apple.com/kr/app/make-%EB%A9%94%EC%9D%B4%ED%81%AC-%EB%A9%94%EC%9D%B4%EC%BB%A4-%EC%BD%94%EB%94%A9-%EA%B5%90%EC%9C%A1-%EC%89%BD%EA%B3%A0-%EC%9E%AC%EB%B0%8C%EA%B2%8C/id1477837489",
-          demo: "https://www.trymake.co/",
-        },
-      },
+      // {
+      //   date: "2021.07 ~",
+      //   activity: "(주) 마로마브 웹개발팀 ",
+      //   links: {
+      //     github: "https://github.com/EXIT-MAKE",
+      //     googlePlay:
+      //       "https://play.google.com/store/apps/details?id=com.CEREALLAB.FruitsLoop",
+      //     appStore:
+      //       "https://apps.apple.com/kr/app/make-%EB%A9%94%EC%9D%B4%ED%81%AC-%EB%A9%94%EC%9D%B4%EC%BB%A4-%EC%BD%94%EB%94%A9-%EA%B5%90%EC%9C%A1-%EC%89%BD%EA%B3%A0-%EC%9E%AC%EB%B0%8C%EA%B2%8C/id1477837489",
+      //     demo: "https://www.trymake.co/",
+      //   },
+      // },
       {
         date: "2022.03 ~ ",
         activity: "멋쟁이 사자처럼 10기 (FE)운영진",
