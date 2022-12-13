@@ -1,4 +1,3 @@
-let input = require("fs").readFileSync("example.txt").toString().split("\n");
-var a = parseInt(input[0]);
-var b = parseInt(input[1]);
-console.log(a + b);
+const fs = require("fs");
+const filePath = process.platform === "linux" ? "/dev/stdin" : "백준/input.txt";
+const input = fs.readFileSync(filePath).toString().split("\n");
