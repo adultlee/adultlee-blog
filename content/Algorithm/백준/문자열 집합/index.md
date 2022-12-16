@@ -84,7 +84,7 @@ console.log(count);
 
 # 4. 배운 점
 
-1. for문의 시작지점을 잘보다
+1. for문의 시작지점을 잘보자
 
 # Reference
 
