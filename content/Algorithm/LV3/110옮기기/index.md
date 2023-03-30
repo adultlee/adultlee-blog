@@ -116,11 +116,55 @@ function isAnswer(string) {
 }
 ```
 
+테케는 모두 통과했지만 결국 실패하고 말았다.
+시간초과가 뜬것으로 보아 알고리즘 상 문제가 발생한것이라 추축할 수 있다.
+결국 해결책을 찾지 못하고 아래의 코드를 참고하게 되었다.
+
 # 3. 코드
 
 ```js
-
+const answer = [];
+function solution(s) {
+	for (let t = 0; t < s.length; t++) {
+		let str = s[t];
+		let stack = [];
+		let tmp = find110(str, stack);
+		if (tmp == "") answer.push(str);
+		else {
+			const tmpStr = stack.join("");
+			const idx = tmpStr.lastIndexOf("0") + 1;
+			answer.push(tmpStr.substring(0, idx) + tmp + tmpStr.substring(idx));
+		}
+	}
+	return answer;
+}
+function find110(str, stack) {
+	let tmp = "";
+	for (let i = 0; i < str.length; i++) {
+		const c = str.charAt(i);
+		if (stack.length >= 2) {
+			const b = stack.pop();
+			const a = stack.pop();
+			if (a == "1" && b == "1" && c == "0") {
+				tmp += "110";
+				continue;
+			}
+			stack.push(a);
+			stack.push(b);
+		}
+		stack.push(c);
+	}
+	return tmp;
+}
 ```
+
+# 정리
+
+생각보다 간단하게 풀수 있었을지도 모를 문제였다는 생각이 들었다.
+저 풀이에서 볼 수 있듯이 stack을 통해 잠재적으로 발생할 수 있는 110에 대해서 모두 예외처리를 진행해 주었는데,
+아쉽게도 문제를 풀 당시에는 전혀 생각지도 못했던 부분이다.
+또한 본문에서 stack을 재활용하는 부분이 있었는데 이또한 신기했다.
+단순히 지역변수로서 사용된것이 아니라 더 복합적으로 사용된것에 감탄이 나온다.
 
 # Reference
 
