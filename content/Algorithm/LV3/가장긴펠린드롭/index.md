@@ -1,6 +1,6 @@
 ---
 emoji: 😊
-title: 자물쇠와 열쇠 [Lv3]
+title: 가장 긴 펠린드롭 [Lv3]
 date: "2023-03-31 11:10:00"
 author: 이성인
 tags: 알고리즘
